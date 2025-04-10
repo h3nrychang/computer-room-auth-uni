@@ -1,0 +1,71 @@
+{
+  "pages": [
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom"
+      }
+    },
+	{
+	  "path": "pages/apply/apply",
+	  "style": {
+	    "navigationBarTitleText": "",
+	    "navigationStyle": "custom"
+	  }
+	},
+    {
+      "path": "pages/approve/approve",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/manage/manage",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/me/me",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationStyle": "custom"
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#007AFF",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/apply/apply",
+        "iconPath": "static/tabbar/apply.png",
+        "selectedIconPath": "static/tabbar/apply-select.png",
+        "text": "申请"
+      },
+      {
+        "pagePath": "pages/approve/approve",
+        "iconPath": "static/tabbar/approve.png",
+        "selectedIconPath": "static/tabbar/approve-select.png",
+        "text": "审批"
+      },
+      {
+        "pagePath": "pages/manage/manage",
+        "iconPath": "static/tabbar/manage.png",
+        "selectedIconPath": "static/tabbar/manage-select.png",
+        "text": "管理"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "static/tabbar/me.png",
+        "selectedIconPath": "static/tabbar/me-select.png",
+        "text": "我"
+      }
+    ]
+  }
+}
